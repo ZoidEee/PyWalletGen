@@ -1,6 +1,6 @@
 import sys
 from PyQt6.QtWidgets import QApplication
-from PyWallGen.gui.main_window import Demo
+from gui.main_window import Demo
 
 
 def main():
