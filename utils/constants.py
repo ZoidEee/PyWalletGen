@@ -1,4 +1,10 @@
-WALLET_TYPES = ["Legacy", "Native SegWit (bech32)", "P2SH-SegWit (Nested SegWit)", "HD Wallet", "Testnet"]
+WALLET_TYPES = [
+    "Legacy",
+    "Native SegWit (bech32)",
+    "P2SH-SegWit (Nested SegWit)",
+    "HD Wallet",
+    "Testnet",
+]
 
 APP_STYLE = """
     QWidget {
