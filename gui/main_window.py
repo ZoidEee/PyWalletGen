@@ -15,10 +15,10 @@ from PyQt6.QtWidgets import (
     QFileDialog,
     QInputDialog,
 )
-from PyWallGen.utils.constants import WALLET_TYPES, APP_STYLE
-from PyWallGen.wallet.generator import BTCWalletGeneration
-from PyWallGen.utils.qr_generator import set_qr_code
-from PyWallGen.utils.security import export_encrypted_wallet, import_encrypted_wallet
+from utils.constants import WALLET_TYPES, APP_STYLE
+from wallet.generator import BTCWalletGeneration
+from utils.qr_generator import set_qr_code
+from utils.security import export_encrypted_wallet, import_encrypted_wallet
 
 
 class Demo(QMainWindow):
